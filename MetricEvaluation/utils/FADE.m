@@ -1,5 +1,5 @@
 function [D D_map] = FADE(I)
-    % Input: a test image, I
+    % Input: a Test image, I
     % Output: perceptual fog density D and fog density map D_map
     % Detail explanation:
     % L. K. Choi, J. You, and A. C. Bovik, "Referenceless Prediction of Perceptual Fog Density and Perceptual Image Defogging",
@@ -7,7 +7,7 @@ function [D D_map] = FADE(I)
                                          
     %% Basic setup        
             ps                      = 8;                                            % patch size 8 x 8 pixels
-        % Size of a test image for checking possilbe distinct patches 
+        % Size of a Test image for checking possilbe distinct patches
             [row col dim]           = size(I);
             patch_row_num           = floor(row/ps);
             patch_col_num           = floor(col/ps);
@@ -76,7 +76,7 @@ function [D D_map] = FADE(I)
         %Df (foggy level distance) for each patch
         % load natural fogfree image features (mu, cov)
             load('natural_fogfree_image_features_ps8.mat');        
-        % test param for each patch                
+        % Test param for each patch
             mu_fog_param_patch      = feat;
             cov_fog_param_patch     = nanvar(feat')';
         % Distance calculation - includes intermediate steps

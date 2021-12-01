@@ -9,23 +9,23 @@ import datetime
 from utils import *
 
 # setting the arguments.
-Metric   = ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR']
-Datasets = ['Set5']
+Metric   = ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+Datasets = ['Set5'] # 'Set14', 'Urban100', 'Manga109', 'BSD100'
 
 # TODO: 这里需要输入你的备注，保存的log文件会以此命名。
-Name = 'test'
+Name = 'Test'
 
 # TODO: 在这里输入你的数据集的参考图（原图）和结果图的路径，注意的是这里的路径下的应该还有datasets的文件夹
 # TODO: 如果Root路径下没有数据集的话，可以将Datasets设为空list.
-GTRoot = r'D:\OneDrive\WorkStation\GT'
-SRRoot = r'C:\Users\seeker\Desktop\新建文件夹'
+GTRoot = r'Test/GTROOT'
+SRRoot = r'Test/SRROOT'
 GTFolder = []
 SRFolder = []
 
 if len(Datasets) > 0:
     for dataset in Datasets:
-        GTFolder.append(GTRoot + '\\' + dataset)
-        SRFolder.append(SRRoot + '\\' + dataset)
+        GTFolder.append(GTRoot + '/' + dataset)
+        SRFolder.append(SRRoot + '/' + dataset)
 else:
     GTFolder.append(GTRoot)
     SRFolder.append(SRRoot)
@@ -44,7 +44,7 @@ log.logger.info('SRFolder - ' + str(SRFolder))
 log.logger.info('Metric   - ' + str(Metric))
 log.logger.info('Name     - ' + Name)
 
-res = pd.DataFrame(columns=('PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR'))
+res = pd.DataFrame(columns=('PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS'))
 
 for i, j, k in zip(Datasets, SRFolder, GTFolder):
 
@@ -71,10 +71,6 @@ for i, j, k in zip(Datasets, SRFolder, GTFolder):
     resDict['AG']   = [MATLAB[9]]
     resDict['IE']   = [MATLAB[10]]
     resDict['VAR']  = [MATLAB[11]]
-
-    resDataFrame = pd.DataFrame(resDict)
-    resDataFrame.index = [i]
-    res = res.append(resDataFrame)
 
     log.logger.info('[' + i + ']  PSNR  - ' + str(MATLAB[5]))
     log.logger.info('[' + i + ']  SSIM  - ' + str(MATLAB[6]))

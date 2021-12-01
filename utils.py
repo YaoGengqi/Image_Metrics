@@ -58,6 +58,9 @@ def CalLPIPS(SRFolder, GTFolder):
 
     for i in nameList:
 
+        if not i.endswith(('.png', '.PNG')):
+            continue
+
         imageA = os.path.join(SRFolder, i)
         imageB = os.path.join(GTFolder, i)
 

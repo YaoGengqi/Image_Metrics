@@ -92,7 +92,7 @@ class DistModel(BaseModel):
             self.lr = lr
             self.old_lr = lr
             self.optimizer_net = torch.optim.Adam(self.parameters, lr=lr, betas=(beta1, 0.999))
-        else: # test mode
+        else: # Test mode
             self.net.eval()
 
         if(use_gpu):
@@ -225,7 +225,7 @@ def score_2afc_dataset(data_loader, func, name=''):
                 "0.6" means 60pct people preferred right patch, 40pct preferred left)
             scores - N array in [0,1], corresponding to what percentage function agreed with humans
     CONSTS
-        N - number of test triplets in data_loader
+        N - number of Test triplets in data_loader
     '''
 
     d0s = []
@@ -256,7 +256,7 @@ def score_jnd_dataset(data_loader, func, name=''):
             ds - N array containing distances between two patches shown to human evaluator
             sames - N array containing fraction of people who thought the two patches were identical
     CONSTS
-        N - number of test triplets in data_loader
+        N - number of Test triplets in data_loader
     '''
 
     ds = []

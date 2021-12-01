@@ -51,12 +51,12 @@ function [mssim, ssim_map] = ssim(img1, img2, K, window, L)
 %            perfect quality, then mssim can be considered as the
 %            quality measure of the other image.
 %            If img1 = img2, then mssim = 1.
-%        (2) ssim_map: the SSIM index map of the test image. The map
+%        (2) ssim_map: the SSIM index map of the Test image. The map
 %            has a smaller size than the input images. The actual size
 %            depends on the window size and the downsampling factor.
 %
 %Basic Usage:
-%   Given 2 test images img1 and img2, whose dynamic range is 0-255
+%   Given 2 Test images img1 and img2, whose dynamic range is 0-255
 %
 %   [mssim, ssim_map] = ssim(img1, img2);
 %

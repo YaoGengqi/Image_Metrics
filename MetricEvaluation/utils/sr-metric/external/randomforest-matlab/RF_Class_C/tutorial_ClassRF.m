@@ -222,7 +222,7 @@ Y_tst = Y(randvector(251:end));
     plot(model.errtr(:,1)); title('OOB error rate');  xlabel('iteration (# trees)'); ylabel('OOB error rate');
     
 
-% example 17: getting prediction per tree, votes etc for test set
+% example 17: getting prediction per tree, votes etc for Test set
     model = classRF_train(X_trn,Y_trn);
     
     test_options.predict_all = 1;

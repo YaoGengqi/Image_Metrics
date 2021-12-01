@@ -9,7 +9,7 @@ blocksizecol    = 96;
 blockrowoverlap = 0;
 blockcoloverlap = 0;
 
-% Only read the img exists in GT-Folder.
+% Only read the img exists in GTROOT-Folder.
 file_list = dir([GT_dir,'/*.png']); % use the GTFile list to list the SR_list.
 GT_list = dir([GT_dir,  '/*.png']);
 

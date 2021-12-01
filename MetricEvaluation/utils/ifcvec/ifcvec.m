@@ -53,7 +53,7 @@ function ifc=ifcvec(imorg,imdist);
 %Output: (1) The Information Fidelity between the two images
 
 %Default Usage:
-%   Given 2 test images img1 and img2, whose dynamic range is 0-255
+%   Given 2 Test images img1 and img2, whose dynamic range is 0-255
 %
 %   ifc = ifcvec(img1, img2);
 %
