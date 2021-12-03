@@ -1,26 +1,29 @@
-# -*- coding: utf-8 -*-
+# -*- coding: GBK -*-
 # @Time    : 2021/11/28 13:51
-# @Author  : YaoGengqi
+# @Author  : GQ
 # @FileName: main.py.py
 # @Software: PyCharm
 # @Description: This file is used to calculate the metrics.
+
 import shutil
 import datetime
-from utils import *
+from evaluate_sr_results import *
 
 # setting the arguments.
-Metric   = ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
-Datasets = ['Set5'] # 'Set14', 'Urban100', 'Manga109', 'BSD100'
+Metric = ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS', 'FID']
+Datasets = ['Set5']  # 'Set14', 'Urban100', 'Manga109', 'BSD100'
 
-# TODO: è¿™é‡Œéœ€è¦è¾“å…¥ä½ çš„å¤‡æ³¨ï¼Œä¿å­˜çš„logæ–‡ä»¶ä¼šä»¥æ­¤å‘½åã€‚
+# TODO: ÕâÀïÐèÒªÊäÈëÄãµÄ±¸×¢£¬±£´æµÄlogÎÄ¼þ»áÒÔ´ËÃüÃû¡£
 Name = 'Test'
 
-# TODO: åœ¨è¿™é‡Œè¾“å…¥ä½ çš„æ•°æ®é›†çš„å‚è€ƒå›¾ï¼ˆåŽŸå›¾ï¼‰å’Œç»“æžœå›¾çš„è·¯å¾„ï¼Œæ³¨æ„çš„æ˜¯è¿™é‡Œçš„è·¯å¾„ä¸‹çš„åº”è¯¥è¿˜æœ‰datasetsçš„æ–‡ä»¶å¤¹
-# TODO: å¦‚æžœRootè·¯å¾„ä¸‹æ²¡æœ‰æ•°æ®é›†çš„è¯ï¼Œå¯ä»¥å°†Datasetsè®¾ä¸ºç©ºlist.
+# TODO: ÔÚÕâÀïÊäÈëÄãµÄÊý¾Ý¼¯µÄ²Î¿¼Í¼£¨Ô­Í¼£©ºÍ½á¹ûÍ¼µÄÂ·¾¶£¬×¢ÒâµÄÊÇÕâÀïµÄÂ·¾¶ÏÂµÄÓ¦¸Ã»¹ÓÐdatasetsµÄÎÄ¼þ¼Ð
+# TODO: Èç¹ûRootÂ·¾¶ÏÂÃ»ÓÐÊý¾Ý¼¯¶øÊÇÍ¼Æ¬µÄ»°£¬¿ÉÒÔ½«DatasetsÉèÎª¿Õlist¡£
 GTRoot = r'Test/GTROOT'
 SRRoot = r'Test/SRROOT'
 GTFolder = []
 SRFolder = []
+
+
 
 if len(Datasets) > 0:
     for dataset in Datasets:
@@ -30,61 +33,54 @@ else:
     GTFolder.append(GTRoot)
     SRFolder.append(SRRoot)
 
-
 output = datetime.datetime.now().strftime('%Y%m%d') + '-' + Name
 
 if not os.path.isdir('./Results'):
     os.mkdir('./Results')
 
-log = Logger(os.path.join('./Results/', output + '.log'), level='info')
-log.logger.info('Init...')
-log.logger.info('Datasets - ' + str(Datasets))
-log.logger.info('GTFolder - ' + str(GTFolder))
-log.logger.info('SRFolder - ' + str(SRFolder))
-log.logger.info('Metric   - ' + str(Metric))
-log.logger.info('Name     - ' + Name)
 
-res = pd.DataFrame(columns=('PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS'))
+def main():
 
-for i, j, k in zip(Datasets, SRFolder, GTFolder):
+    log = Logger(os.path.join('./Results/', output + '.log'), level='info')
+    log.logger.info('Init...')
+    log.logger.info('Datasets - ' + str(Datasets))
+    log.logger.info('GTFolder - ' + str(GTFolder))
+    log.logger.info('SRFolder - ' + str(SRFolder))
+    log.logger.info('Metric   - ' + str(Metric))
+    log.logger.info('Name     - ' + Name)
 
-    # create the xlsx table.
-    shutil.copy('demo.xlsx', j + r'\AllMetrics.xlsx')
-    log.logger.info('The metrics will save in the file: ' + j + '\\AllMetrics.xlsx')
-    log.logger.info('Calculating ' + i + '...')
+    res = pd.DataFrame( columns=('PI',  'Ma',   'NIQE',  'MSE',  'RMSE',
+                                 'PSNR','SSIM', 'LPIPS', 'BIQME','FADE',
+                                 'AG',  'IE',   'VAR',   'LPIPS','FID'
+                                 ))
 
-    # cal the metrics.
-    MATLAB = CalMATLAB(j, k)
-    LPIPS = CalLPIPS(j, k)
+    for i, j, k in zip(Datasets, SRFolder, GTFolder):
+        # create the xlsx table.
+        shutil.copy('demo.xlsx', j + r'\AllMetrics.xlsx')
+        log.logger.info('The metrics will save in the file: ' + j + '\\AllMetrics.xlsx')
+        log.logger.info('Calculating ' + i + '...')
 
-    resDict = dict()
-    resDict['LPIPS']= [LPIPS]
-    resDict['PI']   = [MATLAB[0]]
-    resDict['Ma']   = [MATLAB[1]]
-    resDict['NIQE'] = [MATLAB[2]]
-    resDict['MSE']  = [MATLAB[3]]
-    resDict['RMSE'] = [MATLAB[4]]
-    resDict['PSNR'] = [MATLAB[5]]
-    resDict['SSIM'] = [MATLAB[6]]
-    resDict['BIQME']= [MATLAB[7]]
-    resDict['FADE'] = [MATLAB[8]]
-    resDict['AG']   = [MATLAB[9]]
-    resDict['IE']   = [MATLAB[10]]
-    resDict['VAR']  = [MATLAB[11]]
+        # cal the metrics.
+        MATLAB = CalMATLAB(j, k)
+        LPIPS = CalLPIPS(j, k)
+        FID = CalFID(j, k)
 
-    log.logger.info('[' + i + ']  PSNR  - ' + str(MATLAB[5]))
-    log.logger.info('[' + i + ']  SSIM  - ' + str(MATLAB[6]))
-    log.logger.info('[' + i + ']  LPIPS - ' + str(LPIPS))
-    log.logger.info('[' + i + ']  PI    - ' + str(MATLAB[0]))
-    log.logger.info('[' + i + ']  BIQME - ' + str(MATLAB[7]))
-    log.logger.info('[' + i + ']  FADE  - ' + str(MATLAB[8]))
-    log.logger.info('[' + i + ']  AG    - ' + str(MATLAB[9]))
-    log.logger.info('[' + i + ']  IE    - ' + str(MATLAB[10]))
-    log.logger.info('[' + i + ']  VAR   - ' + str(MATLAB[11]))
-    log.logger.info('[' + i + ']  Ma    - ' + str(MATLAB[1]))
-    log.logger.info('[' + i + ']  NIQE  - ' + str(MATLAB[2]))
-    log.logger.info('[' + i + ']  MSE   - ' + str(MATLAB[3]))
-    log.logger.info('[' + i + ']  RMSE  - ' + str(MATLAB[4]))
+        log.logger.info('[' + i + ']  PSNR  - ' + str(MATLAB[5]))
+        log.logger.info('[' + i + ']  SSIM  - ' + str(MATLAB[6]))
+        log.logger.info('[' + i + ']  LPIPS - ' + str(LPIPS))
+        log.logger.info('[' + i + ']  PI    - ' + str(MATLAB[0]))
+        log.logger.info('[' + i + ']  FID   - ' + str(FID))
+        log.logger.info('[' + i + ']  BIQME - ' + str(MATLAB[7]))
+        log.logger.info('[' + i + ']  FADE  - ' + str(MATLAB[8]))
+        log.logger.info('[' + i + ']  AG    - ' + str(MATLAB[9]))
+        log.logger.info('[' + i + ']  IE    - ' + str(MATLAB[10]))
+        log.logger.info('[' + i + ']  VAR   - ' + str(MATLAB[11]))
+        log.logger.info('[' + i + ']  Ma    - ' + str(MATLAB[1]))
+        log.logger.info('[' + i + ']  NIQE  - ' + str(MATLAB[2]))
+        log.logger.info('[' + i + ']  MSE   - ' + str(MATLAB[3]))
+        log.logger.info('[' + i + ']  RMSE  - ' + str(MATLAB[4]))
 
-log.logger.info('Done.')
+    log.logger.info('Done.')
 
+if __name__ == '__main__':
+    main()

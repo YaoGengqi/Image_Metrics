@@ -1,9 +1,35 @@
-# Evaluation Toolbox
+# Image-Metrics Evaluation Direction.
+
+## Directions
+
+This project is mainly used to test the reference or non-reference indicators of various images.
+
+The indicators supported so far are as follows:
+
+- PI:感知质量指标
+- Ma
+- NIQE
+- MSE
+- RMSE
+- PSNR：峰值信噪比。
+- SSIM：结构一致性。
+- LPIPS
+- BIQME
+- FADE
+- AG
+- IE
+- VAR
+- LPIPS
+- FID
+
+
 
 ## Dependencies
 
 - Python3
 - MATLAB Engine API for Python
+
+
 
 ## Installation
 
@@ -23,7 +49,7 @@ For example:
 C:\Program Files\MATLAB\R2019b\bin\matlab.exe
 ```
 
-##### 2. Go to the Python API folder
+##### 2. Go to the Python API folder in Matlab root path.
 
 ```bash
 cd matlabroot\extern\engines\python
@@ -77,22 +103,27 @@ python setup.py install
 ### B. Install Required Modules
 
 
-### Evaluation
+
+## Evaluation 
 
 #### a. Manual
 
-edit yourself configuration
+Please edit your configuration in the main.py.
 
-- edit the datasets.
-- edit the SRROOT and GTROOT in the main.py.
-- edit the log name.
+- To edit the datasets.
+- To edit the SRROOT and GTROOT in the main.py.
+- To edit the log Name.
 
 Run `main.py`
 
 ### Results
 
-The results will be generated in the `../Result/` folder as a log file and a excel file in your SRROOT/datasets.
+The .log results will be generated in the `../Result/Name.log`.
+
+The table of Metrics will be save as a excel file in the `SRROOT/datasets/AllMetrics.xlsx`.
 
 ## Reference
 
 The code is based on [MA](https://github.com/chaoma99/sr-metric), [NIQE](https://github.com/csjunxu/Bovik_NIQE_SPL2013), [PI](https://github.com/roimehrez/PIRM2018), [SSIM](https://ece.uwaterloo.ca/~z70wang/research/ssim) and [LPIPS](https://github.com/richzhang/PerceptualSimilarity). 
+
+Some quotations are not yet indicated.

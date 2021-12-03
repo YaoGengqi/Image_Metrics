@@ -19,11 +19,11 @@ im_num = length(GT_list);
 scale = 4;
 scores = struct([]);
 
-filterName = {'ImgName\Metrics','PSNR','SSIM','PI','BIQME','FADE','AG','IE','Var','MSE','RMSE','Ma','NIQE','LPIPS'};
-xlswrite([input_dir '\ALlMetrics.xlsx'], filterName(:)', 'A1:N1');
+filterName = {'ImgName\Metrics','PSNR','SSIM','PI','BIQME','FADE','AG','IE','Var','MSE','RMSE','Ma','NIQE','LPIPS','FID'};
+xlswrite([input_dir '\ALlMetrics.xlsx'], filterName(:)', 'A1:O1');
 xlswrite([input_dir '\ALlMetrics.xlsx'], dat(:), ['A2:A' num2str(im_num+1)]);
 
-metricData = zeros(im_num,13);   % initiate all metrics data to be 0.
+metricData = zeros(im_num,14);   % initiate all metrics data to be 0.
 k = 0;
 
 for ii=1:im_num
@@ -92,9 +92,9 @@ for ii=1:im_num
 
 end
 
-xlswrite([input_dir '\ALlMetrics.xlsx'], metricData, ['B2:N' num2str(im_num+1) ]);
-means = {'Average', num2str(mean([scores.PSNR])), num2str(mean([scores.SSIM])), num2str((mean([scores.NIQE]) + (10 - mean([scores.Ma]))) / 2), num2str(mean([scores.BIQME])), num2str(mean([scores.FADE])), num2str(mean([scores.AG])), num2str(mean([scores.IE])), num2str(mean([scores.VAR])), num2str(mean([scores.MSE])), num2str(sqrt(mean([scores.MSE]))), num2str(mean([scores.Ma])), num2str(mean([scores.NIQE])), "0"};
-xlswrite([input_dir '\ALlMetrics.xlsx'], means, ['A' num2str(im_num+2) ':N' num2str(im_num+2)]);
+xlswrite([input_dir '\ALlMetrics.xlsx'], metricData, ['B2:O' num2str(im_num+1) ]);
+means = {'Average', num2str(mean([scores.PSNR])), num2str(mean([scores.SSIM])), num2str((mean([scores.NIQE]) + (10 - mean([scores.Ma]))) / 2), num2str(mean([scores.BIQME])), num2str(mean([scores.FADE])), num2str(mean([scores.AG])), num2str(mean([scores.IE])), num2str(mean([scores.VAR])), num2str(mean([scores.MSE])), num2str(sqrt(mean([scores.MSE]))), num2str(mean([scores.Ma])), num2str(mean([scores.NIQE])), "0", "0"};
+xlswrite([input_dir '\ALlMetrics.xlsx'], means, ['A' num2str(im_num+2) ':O' num2str(im_num+2)]);
 
 end
 
