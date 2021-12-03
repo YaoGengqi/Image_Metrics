@@ -1,0 +1,408 @@
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: [Set5]  PSNR  - 31.96559519886033
+INFO: [Set5]  SSIM  - 0.9045844750393737
+INFO: [Set5]  LPIPS - 0.17902073
+INFO: [Set5]  PI    - 6.3165976301392615
+INFO: [Set5]  BIQME - 0.6201815999999999
+INFO: [Set5]  FADE  - 0.4767469184978255
+INFO: [Set5]  AG    - 5.517443158534137
+INFO: [Set5]  IE    - 7.309001091141738
+INFO: [Set5]  VAR   - 15.922181209405142
+INFO: [Set5]  Ma    - 5.149930902870905
+INFO: [Set5]  NIQE  - 7.783126163149428
+INFO: [Set5]  MSE   - 47.52284686302083
+INFO: [Set5]  RMSE  - 6.893681662437048
+INFO: Done.
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Done.
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Done.
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: Init...
+INFO: Init...
+INFO: Datasets - ['Set5']
+INFO: GTFolder - ['Test/GTROOT/Set5']
+INFO: SRFolder - ['Test/SRROOT/Set5']
+INFO: Metric   - ['PI', 'Ma', 'NIQE', 'MSE', 'RMSE', 'PSNR', 'SSIM', 'LPIPS', 'BIQME', 'FADE', 'AG', 'IE', 'VAR', 'LPIPS']
+INFO: Name     - Test
+INFO: The metrics will save in the file: Test/SRROOT/Set5\AllMetrics.xlsx
+INFO: Calculating Set5...
+INFO: [Set5]  PSNR  - 31.96559519886033
+INFO: [Set5]  SSIM  - 0.9045844750393737
+INFO: [Set5]  LPIPS - 0.17902073
+INFO: [Set5]  PI    - 6.3165976301392615
+INFO: [Set5]  FID   - 57.868721520185694
+INFO: [Set5]  BIQME - 0.6201815999999999
+INFO: [Set5]  FADE  - 0.4767469184978255
+INFO: [Set5]  AG    - 5.517443158534137
+INFO: [Set5]  IE    - 7.309001091141738
+INFO: [Set5]  VAR   - 15.922181209405142
+INFO: [Set5]  Ma    - 5.149930902870905
+INFO: [Set5]  NIQE  - 7.783126163149428
+INFO: [Set5]  MSE   - 47.52284686302083
+INFO: [Set5]  RMSE  - 6.893681662437048
+INFO: Done.
