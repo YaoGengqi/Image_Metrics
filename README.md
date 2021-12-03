@@ -6,13 +6,13 @@ This project is mainly used to test the reference or non-reference indicators of
 
 The indicators supported so far are as follows:
 
-- PI:感知质量指标
+- PI
 - Ma
 - NIQE
 - MSE
 - RMSE
-- PSNR：峰值信噪比。
-- SSIM：结构一致性。
+- PSNR
+- SSIM
 - LPIPS
 - BIQME
 - FADE
@@ -118,12 +118,12 @@ Run `main.py`
 
 ### Results
 
-The .log results will be generated in the `../Result/Name.log`.
+The .log results will be generated in the [Result/Name.log](Results/20211203-Test.log).
 
-The table of Metrics will be save as a excel file in the `SRROOT/datasets/AllMetrics.xlsx`.
+The table of Metrics will be save as a excel file in the [SRROOT/Datasets/AllMetrics.xlsx](Test/SRROOT/Set5/AllMetrics.xlsx).
 
 ## Reference
 
-The code is based on [MA](https://github.com/chaoma99/sr-metric), [NIQE](https://github.com/csjunxu/Bovik_NIQE_SPL2013), [PI](https://github.com/roimehrez/PIRM2018), [SSIM](https://ece.uwaterloo.ca/~z70wang/research/ssim) and [LPIPS](https://github.com/richzhang/PerceptualSimilarity). 
+The code is based on [MA](https://github.com/chaoma99/sr-metric), [NIQE](https://github.com/csjunxu/Bovik_NIQE_SPL2013), [PI](https://github.com/roimehrez/PIRM2018), [SSIM](https://ece.uwaterloo.ca/~z70wang/research/ssim), [LPIPS](https://github.com/richzhang/PerceptualSimilarity) and else, We will add these references in the future.
 
 Some quotations are not yet indicated.
