@@ -127,3 +127,8 @@ The table of Metrics will be save as a excel file in the [SRROOT/Datasets/AllMet
 The code is based on [MA](https://github.com/chaoma99/sr-metric), [NIQE](https://github.com/csjunxu/Bovik_NIQE_SPL2013), [PI](https://github.com/roimehrez/PIRM2018), [SSIM](https://ece.uwaterloo.ca/~z70wang/research/ssim), [LPIPS](https://github.com/richzhang/PerceptualSimilarity) and else, We will add these references in the future.
 
 Some quotations are not yet indicated.
+
+## TODO
+- DockerFile
+- More Metrics
+- Smaller
