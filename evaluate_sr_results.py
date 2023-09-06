@@ -112,6 +112,15 @@ def CalMATLAB(SRFolder, GTFolder):
     res = res.squeeze()
     return res
 
+def CalMATLAB2(SRFolder, GTFolder):
+    eng = matlab.engine.start_matlab()
+    eng.addpath(eng.genpath(eng.fullfile(os.getcwd(), 'MetricEvaluation')))
+    res = eng.evaluate_results2(SRFolder, GTFolder)
+    res = np.array(res)
+    res = res.squeeze()
+    return res
+
+
 
 def CalLPIPS(SRFolder, GTFolder):
 

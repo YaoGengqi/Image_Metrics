@@ -26,7 +26,7 @@ The indicators supported so far are as follows:
 
 ## Dependencies
 
-- Python3
+- Python3(.6)
 - MATLAB Engine API for Python
 
 

@@ -1,0 +1,28 @@
+# need python==3.6, not 3.7 or 3.8
+pandas
+addict
+future
+lmdb
+numpy>=1.17
+# opencv-python
+Pillow
+pyyaml
+requests
+scikit-image==0.16.2
+# scikit-image==0.15.0
+scipy
+tb-nightly
+# torch>=1.7
+# torchvision
+tqdm
+yapf
+IPython
+matlab
+# pylab
+Pillow
+xlrd==1.2.0
+openpyxl
+# A card download
+# pip install torch==1.7.0+cpu torchvision==0.8.1+cpu torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+# name source to download
+# pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
